@@ -13,7 +13,7 @@ tags:
   - ITコンテスト
   - 学び
   - ポエム
-image: images\IMG_1667.jpg
+image: images/IMG_1667.jpg
 status: "draft"
 ---
 ## コンテストについて
