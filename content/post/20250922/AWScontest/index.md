@@ -46,8 +46,8 @@ status: "draft"
 
 [AKATUKIプロジェクト](https://www.quintbridge.jp/)では、地方でのトップIT人材、企業家の人材発掘を進めるために、プロジェクトを遂行するための環境と、能力のある若手人材への投資をしてくれる環境がありました。北九州では、AKATUKIプロジェクトに採択されている学生がいて、AIの力を活用し、地域文化への理解促進と、持続可能な観光体験を創出するための観光アプリを発表しました。技術力の高さと、着眼点に驚きました。
 
-![Startup loft](images\IMG_1513.jpg)
-
+![Startup loft](images/IMG_1513.jpg)
+/
 AWSでは、スタートアップ支援を行っており、AWS japanの本社内には、[AWS Startup Loft](https://aws.amazon.com/startups/lp/aws-startup-loft-tokyo?lang=ja)を設置していました。新しいものを生み出そうとする人々が集まり、刺激し合い、新たなものが生まれる場所でした。概要と利用方法は、[こちら](https://aws.amazon.com/startups/lp/aws-startup-loft-tokyo?lang=ja)です。
 
 ### 参加してみての学び
@@ -113,4 +113,4 @@ AWSでは、スタートアップ支援を行っており、AWS japanの本社�
 今回の発表でいろいろとご尽力いただいた皆様、誠にありがとうございます。多くの学びと、経験をすることができ、ものすごく勉強になりました。
 GITYの皆様、今後ともよろしくお願いいたします。
 
-![装飾されたユニコーンの写真](images\IMG_1510.jpg)
+![装飾されたユニコーンの写真](images/IMG_1510.jpg)
