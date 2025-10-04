@@ -155,7 +155,7 @@ FrontmatterにはYAMLを用いてください。MarkdownLintをパスしてい�
 - [Node.js](https://nodejs.org/ja)
 - [PNPm](https://pnpm.io/ja/)
 
-環境を構築語、ソースコードと依存関係をダウンロードしてください。
+環境を構築後、ソースコードと依存関係をダウンロードしてください。
 
 (CATENASのリポジトリへのアクセス権がない方はフォークしてください。)
 
