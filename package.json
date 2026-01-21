@@ -6,17 +6,19 @@
   "scripts": {
     "build": "pnpm hugo build",
     "dev": "pnpm hugo server",
-    "new": "pnpm hugo new content \"post/$(date +\"%Y%m%d\" 2>/dev/null || date -u \"+%Y%m%d\")/[TITLE]/index.md\""
+    "new": "pnpm hugo new content \"post/$(date +\"%Y%m%d\" 2>/dev/null || date -u \"+%Y%m%d\")/[TITLE]/index.md\"",
+    "update": "ncu -u && pnpm install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "hugo-extended": "^0.145.0",
-    "npm-check-updates": "^17.1.16",
-    "prettier": "^3.5.3"
+    "hugo-extended": "^0.154.5",
+    "node-check-updates": "^0.1.9",
+    "npm-check-updates": "^19.3.1",
+    "prettier": "^3.8.0"
   },
-  "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971",
+  "packageManager": "pnpm@10.28.1",
   "volta": {
     "node": "22.15.0"
   }
