@@ -2,7 +2,7 @@
 title: 記事の書き方
 slug: how-to-write
 menu:
-    main: 
+    main:
         weight: 0
         params:
             icon: pencil
@@ -47,7 +47,7 @@ tags:
   - 人間
 ---
 
-[実際のサンプル](https://github.com/sdmlaborg/gity-tech-blog/blob/main/content/post/20250116/seedsn.md?plain=1)も合わせてご覧ください。
+[実際のサンプル](https://github.com/catenas-g/gity-blog/blob/main/content/post/20250116/seedsn.md?plain=1)も合わせてご覧ください。
 
 ## はじめに
 
@@ -141,7 +141,7 @@ GitやGitHubを使い慣れている開発者の方は、以下の方法で開�
 
 GitHub ActionによってGitHub Pagesにデプロイされています。
 
-ソースコードは[GitHub](https://github.com/sdmlaborg/gity-tech-blog)に公開されており、OSSとして公開されています。
+ソースコードは[GitHub](https://github.com/catenas-g/gity-blog)に公開されており、OSSとして公開されています。
 
 マークダウンパーサーは[goldMark](https://github.com/yuin/goldmark)を使用しており、記事の記法は[CommonMark](https://commonmark.org/help/)に従う必要があります。
 
@@ -160,7 +160,7 @@ FrontmatterにはYAMLを用いてください。MarkdownLintをパスしてい�
 (CATENASのリポジトリへのアクセス権がない方はフォークしてください。)
 
 ```bash
-git clone https://github.com/sdmlaborg/gity-tech-blog.git
+git clone https://github.com/catenas-g/gity-blog.git
 cd gity-tech-blog
 git switch -c name/new-post
 pnpm install
@@ -183,7 +183,7 @@ pnpm run new
 ```
 
 生成されたファイルを編集して記事を作成してください。
-編集時には[サンプル](https://github.com/sdmlaborg/gity-tech-blog/blob/main/content/post/20250116/seedsn.md?plain=1)も合わせてご覧ください。
+編集時には[サンプル](https://github.com/catenas-g/gity-blog/blob/main/content/post/20250116/seedsn.md?plain=1)も合わせてご覧ください。
 
 記事が完成したらコミットしてください。
 
@@ -192,8 +192,12 @@ git add -A
 git commit -m "add: Add new post"
 ```
 
-作成後、[プルリクエストを作成](https://github.com/sdmlaborg/gity-tech-blog/pulls)してください。
+作成後、[プルリクエストを作成](https://github.com/catenas-g/gity-blog/pulls)してください。
 
 ## ハヤオへの連絡方法
 
-Code for GunmaのSlackもしくは[Twitter](https://twitter.com/Hayao0819)のDMまで連絡をお願いします。
+- メールアドレス: `shun819 dot mail at gmail dot com`, `me at hayao0819 dot com`
+- Discord: `@hayao0819`
+- Twitter: https://twitter.com/Hayao0819
+
+Code for GunmaやCATENASのSlackもしくは上記まで連絡をお願いします。
