@@ -149,13 +149,38 @@ FrontmatterにはYAMLを用いてください。MarkdownLintをパスしてい�
 
 ### 開発環境の構築
 
+### ツールのインストール
+
 以下の開発用ツールをインストールしてください。
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/ja)
 - [PNPm](https://pnpm.io/ja/)
+- [markdownlint](https://github.com/DavidAnson/markdownlint)
 
-環境を構築後、ソースコードと依存関係をダウンロードしてください。
+#### Arch Linux
+
+公式リポジトリよりGitとmarkdownlintを、AURよりvoltaをインストールします。
+
+```bash
+yay -S volta git markdownlint-cli2
+volta install node@lts
+volta install corepack
+```
+
+#### Gentoo Linux
+
+後ほど追記します。
+
+#### Nix
+
+`flake.nix`を導入しており、開発環境が定義されています。
+
+Flakeを有効化している方は`nix develop`コマンドで開発環境を一括でセットアップできます。
+
+### ソースコードの取得
+
+ソースコードを以下のコマンドでダウンロードし、依存関係をインストールしてしてください。
 
 (CATENASのリポジトリへのアクセス権がない方はフォークしてください。)
 
