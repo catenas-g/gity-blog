@@ -14,6 +14,7 @@ tags:
   - CTF
   - OSINT
   - Writeup
+image: thumb.JPG
 ---
 
 ## はじめに
